@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(270deg, #009bd6, #531a88, black);
+    background-size: 600% 600%;
+    animation: gradientMove 10s ease infinite;
+
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0, .2);
+
+}
+
+
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: Pacifico;
+}
+
+.navbar-brand:hover {
+    color: #531a88 !important;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin: 0 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-transform: uppercase;
+}
+
+
+
+.nav-link:hover {
+    color: #531a88 !important;
+    transform: scale(1.2);
+}
+
+.search {
+    position: relative;
+    padding-left: 35px;
+    border-radius: 60px;
+    margin-right: -35px;
+
+
+}
+
+
+
+.search-icon {
+    position: absolute;
+    margin-left: 8px;
+    color: #531a88;
+}
+
+.search::placeholder {
+    color: gray;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.form-control:focus {
+    border-color: blueviolet;
+    /* border color on focus */
+    box-shadow: 0 0 5px 0 blueviolet;
+    /* glow/shadow effect */
+    outline: none;
+    /* remove default outline */
+}
+
+.btn-search {
+    background-color: #531a88;
+    color: white;
+    border-radius: 60px;
+    margin-left: -25px;
+    z-index: 5;
+
+}
+
+.dropdown-menu {
+    background-color: transparent !important;
+    /* makes it transparent */
+    border: none;
+    /* optional: removes the border */
+
+}
+
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #ffffff;
+}
+
+.btn-search:hover {
+    background-color: white !important;
+    border: 1px solid #531a88;
+    color: #531a88;
+}
+
+.home-section {
+    background: linear-gradient(270deg, #009bd6, #531a88, black);
+    background-size: 600% 600%;
+    animation: gradientMove 10s ease infinite;
+
+
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.hero-img {
+    margin-top: 12vh;
+    width: 40em;
+    overflow: hidden;
+
+}
+
+
+
+.main-ctn {
+    margin-top: 12vh;
+}
+
+.main-ctn span {
+    font-size: 2vw;
+    color: white;
+}
+
+.main-ctn h1 {
+    color: white;
+    font-size: 5.5vw;
+    font-weight: 700;
+}
+
+.main-ex-btn {
+    width: 6rem;
+}
+
+
+
+.smedia-icon {
+    display: flex;
+    gap: 1.5vw;
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    font-size: 2.5vw;
+    color: white;
+}
+
+.img-abt img {
+    width: 38vw;
+}
+
+
+
+#about h2 {
+    margin-top: 2.7vh;
+    color: #ffffff;
+}
+
+
+#about p {
+    color: #ffffff;
+}
+
+.abt-exp h4 {
+    color: yellow;
+}
+
+.port-card {
+    display: grid;
+    align-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+
+.card {
+    box-shadow: 0 5px 5px black;
+    border: none;
+    width: 100%;
+}
+
+.card-img-top {
+    height: 200px;
+    /* adjust to your preferred size */
+    object-fit: cover;
+    /* ensures image doesn't distort */
+}
+
+.design-works {
+    padding-top: 2.7vh;
+}
+
+.about-btn {
+    width: 6rem;
+    margin-bottom: 12vh;
+}
+
+.spinner-large {
+    width: 5rem;
+    height: 5rem;
+    animation-duration: 2s !important;
+
+}
+
+.spinner-grow {
+    background: radial-gradient(#531a88, #009bd6);
+}
+
+
+
+
+.web-design {
+    padding-top: 2.7vh;
+}
+
+
+#contact h2 {
+    color: white;
+}
+
+#contact {
+    padding-top: 2.7vh;
+}
+
+#footer {
+    background: linear-gradient(270deg, #009bd6, #531a88, black);
+    box-shadow: 5px 0 0 black;
+    margin-top: 5vh;
+    padding: 3vh 4vw;
+    box-sizing: border-box;
+}
+
+#footer p {
+    color: wheat;
+}
+
+.footer-icons {
+    color: wheat;
+}
+
+.footer-end {
+    color: wheat;
+}
+
+
+#portfolio {
+    margin-top: 5vh;
+    padding-top: 2.7vh;
+}
+
+#portfolio h2 {
+    color: white;
+}
+
+#portfolio h3 {
+    color: yellow;
+}
+
+.accordion-head h4 {
+    margin-top: 10vh;
+
+}
+
+
+
+.accordion-item,
+.accordion-button {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    box-shadow: 0 2px 2px 0 black;
+}
+
+.acdn {
+    margin-bottom: 10vh;
+}
+
+.popup-btn {
+    width: 6rem;
+}
+
+.contact-smt {
+    width: 6rem !important;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+
+
+
+    .navbar {
+        background-color: rgb(0, 0, 0, .2);
+        position: static;
+    }
+
+
+
+    .hero-img {
+        margin-top: 12vh;
+        width: 40em;
+        overflow: hidden;
+
+    }
+
+    .main-ctn {
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-ctn span {
+        font-size: 5vw;
+        color: white;
+    }
+
+    .main-ctn h1 {
+        color: white;
+        font-size: 8.5vw;
+        font-weight: 700;
+    }
+
+    .smedia-icon {
+        font-size: 3.5vw;
+        color: white;
+    }
+
+
+}
